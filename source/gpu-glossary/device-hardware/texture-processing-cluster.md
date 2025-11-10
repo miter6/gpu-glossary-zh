@@ -3,9 +3,7 @@
 翻译时间: 2025-11-06 19:04:07
 -->
 
----
- 什么是纹理处理集群？（TPC）
----
+# 什么是纹理处理集群？(TPC)
 
 纹理处理集群 (Texture Processing Cluster, TPC) 是一对相邻的[流式多处理器 (Streaming Multiprocessors, SMs)](/gpu-glossary/device-hardware/streaming-multiprocessor)。
 

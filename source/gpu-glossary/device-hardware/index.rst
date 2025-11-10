@@ -13,20 +13,20 @@
    :maxdepth: 2
    :caption: 目录
 
-   core.md
-   cuda-core.md
-   cuda-device-architecture.md
-   gpu-ram.md
-   graphics-processing-cluster.md
-   l1-data-cache.md
-   load-store-unit.md
-   register-file.md
-   special-function-unit.md
-   streaming-multiprocessor-architecture.md
-   streaming-multiprocessor.md
-   tensor-core.md
-   tensor-memory-accelerator.md
-   tensor-memory.md
-   texture-processing-cluster.md
-   warp-scheduler.md
+   CUDA (设备架构) <cuda-device-architecture.md>
+   流多处理器 (SM) <streaming-multiprocessor.md>
+   核心<core.md>
+   特殊函数单元 (SFU) <special-function-unit.md>
+   加载/存储单元 (LSU) <load-store-unit.md>
+   Warp调度器<warp-scheduler.md>
+   CUDA核心<cuda-core.md>
+   Tensor核心<tensor-core.md>
+   Tensor内存加速器(TMA)<tensor-memory-accelerator.md>
+   流式多处理架构<streaming-multiprocessor-architecture.md>
+   纹理处理簇 (TPC) <texture-processing-cluster.md>
+   图像/GPU处理簇<graphics-processing-cluster.md>
+   寄存器文件<register-file.md>
+   L1数据缓存<l1-data-cache.md>
+   Tensor内存<tensor-memory.md>
+   GPU内存 (RAM) <gpu-ram.md>
 

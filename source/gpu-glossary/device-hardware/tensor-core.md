@@ -3,9 +3,7 @@
 翻译时间: 2025-11-06 19:20:39
 -->
 
----
- 什么是 Tensor Core？
----
+# 什么是 Tensor Core？
 
 Tensor Core 是一种 GPU [核心 (core)](/gpu-glossary/device-hardware/core)，能够通过单条指令对整个矩阵进行操作。
 

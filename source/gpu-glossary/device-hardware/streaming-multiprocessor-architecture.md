@@ -3,9 +3,7 @@
 翻译时间: 2025-11-06 19:00:40
 -->
 
----
- 什么是流式多处理器架构？
----
+# 什么是流式多处理器架构？
 
 [流式多处理器 (SM)](/gpu-glossary/device-hardware/streaming-multiprocessor)
 采用特定"架构"进行版本管理，该架构定义了它们与

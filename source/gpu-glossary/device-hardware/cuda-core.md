@@ -3,9 +3,7 @@
 翻译时间: 2025-11-06 19:01:35
 -->
 
----
- 什么是 CUDA 核心？
----
+# 什么是 CUDA 核心？
 
 CUDA 核心是执行标量算术指令的 GPU [核心](/gpu-glossary/device-hardware/core)。
 

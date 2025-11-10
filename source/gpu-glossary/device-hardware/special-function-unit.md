@@ -3,9 +3,7 @@
 翻译时间: 2025-11-06 18:59:43
 -->
 
----
- 什么是特殊功能单元？（SFU）
----
+# 什么是特殊功能单元？（SFU）
 
 特殊功能单元 (Special Function Units, SFU) 位于[流式多处理器 (Streaming Multiprocessors, SMs)](/gpu-glossary/device-hardware/streaming-multiprocessor)中，用于加速特定的算术运算。
 

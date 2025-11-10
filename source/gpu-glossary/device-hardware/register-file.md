@@ -3,9 +3,7 @@
 翻译时间: 2025-11-06 19:01:09
 -->
 
----
- 什么是寄存器文件？
----
+# 什么是寄存器文件？
 
 [流式多处理器 (Streaming Multiprocessor)](/gpu-glossary/device-hardware/streaming-multiprocessor)的寄存器文件是在[计算核心 (core)](/gpu-glossary/device-hardware/core)进行数据操作期间的主要数据存储单元。
 
