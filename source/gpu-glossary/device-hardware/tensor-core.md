@@ -9,7 +9,7 @@
 
 Tensor Core 是一种 GPU [核心 (core)](/gpu-glossary/device-hardware/core)，能够通过单条指令对整个矩阵进行操作。
 
-![](https://github.com/user-attachments/assets/93688b45-a51f-425e-b6e6-b65c12aa6e66)  
+![](light-gh100-sm.svg)  
 
 > H100 SM 的内部架构。注意 Tensor Core 数量较少但尺寸更大。改编自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)。
 

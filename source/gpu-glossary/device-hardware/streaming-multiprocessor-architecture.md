@@ -12,11 +12,11 @@
 [流式汇编器 (SASS)](/gpu-glossary/device-software/streaming-assembler)
 代码的兼容性。
 
-![](https://github.com/user-attachments/assets/93688b45-a51f-425e-b6e6-b65c12aa6e66)  
+![](light-gh100-sm.svg)  
 
 > 采用"Hopper" SM90 架构的流式多处理器。修改自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)。
 
-![](https://github.com/user-attachments/assets/15c04ada-102d-4bc4-9789-f3df4dfa1678)  
+![](light-tesla-sm.svg)  
 
 > 采用原始"Tesla" SM 架构的流式多处理器。修改自 [Fabien Sanglard 的博客](https://fabiensanglard.net/cuda)。
 

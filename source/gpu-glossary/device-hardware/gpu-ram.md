@@ -8,7 +8,7 @@
 ---
 
 
-![](https://github.com/user-attachments/assets/1503901d-ae10-49e7-ad46-a3b5b1fa0b7b)  
+![](light-hbm-schematic.svg)  
 
 > 在像 H100 这样的高性能数据中心 GPU 中，RAM 位于与处理器芯片相邻的芯片上。改编自维基百科关于[高带宽内存](https://en.wikipedia.org/wiki/High_Bandwidth_Memory)的页面。]
 

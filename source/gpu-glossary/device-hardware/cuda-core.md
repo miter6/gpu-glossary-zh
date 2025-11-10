@@ -9,7 +9,7 @@
 
 CUDA 核心是执行标量算术指令的 GPU [核心](/gpu-glossary/device-hardware/core)。
 
-![](https://github.com/user-attachments/assets/93688b45-a51f-425e-b6e6-b65c12aa6e66)  
+![](light-gh100-sm.svg)  
 
 > H100 SM 的内部架构。CUDA 核心和张量核心以绿色显示。请注意张量核心尺寸更大且数量更少。改编自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)。
 

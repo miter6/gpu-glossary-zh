@@ -16,13 +16,13 @@ CUDA 的愿景在 [Lindholm 等人于 2008 年](https://www.cs.cmu.edu/afs/cs/ac
 
 在 GeForce 8800 及其衍生的 Tesla 数据中心 GPU 之前，NVIDIA GPU 采用复杂的管线着色器架构设计，该架构将软件着色器阶段映射到异构的、专门的硬件单元上。这种架构对软件和硬件工程师都构成了挑战：它要求软件工程师将程序映射到固定管线，并迫使硬件工程师猜测管线各步骤间的负载比例。
 
-![](https://github.com/user-attachments/assets/1af71140-15b0-451b-83e2-ecee0d1db2fc)  
+![](light-fixed-pipeline-g71.svg)
 
 > 固定管线设备架构示意图 (G71)。请注意存在用于处理片段和顶点着色的独立处理器组。改编自 [Fabien Sanglard 的博客](https://fabiensanglard.net/cuda/)。
 
 采用统一架构的 GPU 设备则要简单得多：其硬件单元完全统一，每个单元都能够执行多种计算。这些单元被称为[流式多处理器 (SM)](/gpu-glossary/device-hardware/streaming-multiprocessor)，它们的主要子组件是 [CUDA 核心](/gpu-glossary/device-hardware/cuda-core)以及（对于近期的 GPU）[张量核心](/gpu-glossary/device-hardware/tensor-core)。
 
-![](https://github.com/user-attachments/assets/e8834a83-7eb2-43bc-92de-6b53c4038f54)  
+![](light-cuda-g80.svg)
 
 > 计算统一设备架构示意图 (G80)。请注意没有不同的处理器类型——所有有意义的计算都发生在图中央相同的[流式多处理器](/gpu-glossary/device-hardware/streaming-multiprocessor)中，这些处理器接收针对顶点、几何和像素线程的指令。修改自 [Peter Glazkowsky 2009 年关于 Fermi 架构的白皮书](https://www.nvidia.com/content/pdf/fermi_white_papers/p.glaskowsky_nvidia%27s_fermi-the_first_complete_gpu_architecture.pdf)。
 

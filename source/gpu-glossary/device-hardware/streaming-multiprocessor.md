@@ -9,7 +9,7 @@
 
 当我们[对 GPU 进行编程](/gpu-glossary/host-software/cuda-software-platform)时，我们会生成[指令序列](/gpu-glossary/device-software/streaming-assembler)供其流式多处理器 (Streaming Multiprocessor) 执行。
 
-![](https://github.com/user-attachments/assets/93688b45-a51f-425e-b6e6-b65c12aa6e66)  
+![](light-gh100-sm.svg)
 
 > H100 GPU 流式多处理器内部架构示意图。GPU 核心显示为绿色，其他计算单元为栗色，调度单元为橙色，内存为蓝色。修改自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)。
 
@@ -29,7 +29,7 @@ CPUs 也可以并发运行许多线程。但是[线程束 (Warp)](/gpu-glossary/
 
 这种[延迟隐藏 (Latency Hiding)](/gpu-glossary/perf/latency-hiding) 是 GPU 优势的秘诀。CPU 试图通过维护大型的、硬件管理的缓存和复杂的指令预测来对最终用户和程序员隐藏延迟。这些额外的硬件限制了 CPU 可以分配给计算的芯片面积比例、功耗和热预算。
 
-![](https://github.com/user-attachments/assets/d4e797df-a01b-4b36-90c3-48f7b24871af)  
+![](light-cpu-vs-gpu.svg)
 
 > 与 CPU 相比，GPU 将其更多的面积用于计算（绿色），而更少的面积用于控制和缓存（橙色和蓝色）。修改自 [Fabien Sanglard 博客](https://fabiensanglard.net/cuda) 中的图表，该图表本身可能修改自 [CUDA C 编程指南](https://docs.nvidia.com/cuda/cuda-c-programming-guide/) 中的图表。
 

@@ -10,7 +10,7 @@
 [流式多处理器 (Streaming Multiprocessor)](/gpu-glossary/device-hardware/streaming-multiprocessor)的寄存器文件是在[计算核心 (core)](/gpu-glossary/device-hardware/core)进行数据操作期间的主要数据存储单元。
 
 
-![](https://github.com/user-attachments/assets/93688b45-a51f-425e-b6e6-b65c12aa6e66)  
+![](light-gh100-sm.svg)  
 
 > HH100 SM 内部架构图。蓝色部分描绘的是寄存器文件。修改自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)。
 

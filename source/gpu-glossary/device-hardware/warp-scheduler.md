@@ -9,7 +9,7 @@
 
 线程束调度器是[流式多处理器 (SM)](/gpu-glossary/device-hardware/streaming-multiprocessor)的核心组件，负责在每个时钟周期决定执行哪一组[线程](/gpu-glossary/device-software/thread)。
 
-![](https://github.com/user-attachments/assets/93688b45-a51f-425e-b6e6-b65c12aa6e66)  
+![](light-gh100-sm.svg)  
 
 > H100 SM 内部架构图。橙色部分为线程束调度器和分发单元。改编自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)。
 

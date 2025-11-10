@@ -7,7 +7,7 @@
 
 核心是构成[流式多处理器 (SMs)](/gpu-glossary/device-hardware/streaming-multiprocessor)的主要计算单元。
 
-![](https://github.com/user-attachments/assets/93688b45-a51f-425e-b6e6-b65c12aa6e66)  
+![](light-gh100-sm.svg)  
 
 > H100 GPU 流式多处理器内部架构示意图。GPU 核心显示为绿色，其他计算单元为栗色，调度单元为橙色，内存为蓝色。修改自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)。
 

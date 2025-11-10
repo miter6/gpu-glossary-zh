@@ -9,7 +9,7 @@
 
 加载/存储单元 (Load/Store Unit, LSU) 负责向 GPU 的内存子系统分派加载或存储数据的请求。
 
-![](https://github.com/user-attachments/assets/93688b45-a51f-425e-b6e6-b65c12aa6e66)  
+![](light-gh100-sm.svg)  
 
 > H100 流式多处理器 (SM) 的内部架构。图中粉色部分展示了加载/存储单元以及[特殊功能单元](/gpu-glossary/device-hardware/special-function-unit)。改编自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)]。
 

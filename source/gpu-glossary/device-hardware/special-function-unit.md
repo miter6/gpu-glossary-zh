@@ -9,7 +9,7 @@
 
 特殊功能单元 (Special Function Units, SFU) 位于[流式多处理器 (Streaming Multiprocessors, SMs)](/gpu-glossary/device-hardware/streaming-multiprocessor)中，用于加速特定的算术运算。
 
-![](https://github.com/user-attachments/assets/93688b45-a51f-425e-b6e6-b65c12aa6e66)  
+![](light-gh100-sm.svg)
 
 > H100 SM 的内部架构。特殊功能单元以褐红色显示，与[加载/存储单元 (Load/Store Units)](/gpu-glossary/device-hardware/load-store-unit)一起展示。修改自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)。
 
