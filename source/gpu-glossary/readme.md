@@ -3,11 +3,9 @@
 翻译时间: 2025-11-06 18:21:53
 -->
 
----
-README
----
+# README
 
-<pre class="text-xs md:text-base font-mono whitespace-pre">
+```
  ██████╗ ██████╗ ██╗   ██╗
 ██╔════╝ ██╔══██╗██║   ██║
 ██║  ███╗██████╔╝██║   ██║
@@ -20,7 +18,7 @@ README
 ██║   ██║██║     ██║   ██║╚════██║╚════██║██╔══██║██╔══██╗  ╚██╔╝
 ╚██████╔╝███████╗╚██████╔╝███████║███████║██║  ██║██║  ██║   ██║
  ╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝
- </pre>
+```
 
 我们编写这个术语表是为了解决在 [Modal](https://modal.com/) 使用 GPU 时遇到的一个问题：文档内容分散，难以将不同技术栈层次的概念联系起来，比如[流式多处理器架构 (Streaming Multiprocessor Architecture)](/gpu-glossary/device-hardware/streaming-multiprocessor-architecture)、[计算能力 (Compute Capability)](/gpu-glossary/device-software/compute-capability) 和 [nvcc 编译器标志](/gpu-glossary/host-software)。
 

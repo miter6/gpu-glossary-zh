@@ -3,9 +3,7 @@
 翻译时间: 2025-11-06 19:07:18
 -->
 
----
- 什么是 GPU 核心？
----
+# 什么是 GPU 核心？
 
 核心是构成[流式多处理器 (SMs)](/gpu-glossary/device-hardware/streaming-multiprocessor)的主要计算单元。
 

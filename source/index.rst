@@ -3,16 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-gpu-glossary documentation
+GPU Glossary
 ==========================
-
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :numbered:
+   :caption: 目录
 
-   gpu-glossary/perf.md
+   gpu-glossary/readme.md
+   gpu-glossary/device-hardware/index.rst
+   gpu-glossary/device-software/index.rst
+   gpu-glossary/host-software/index.rst
+   gpu-glossary/perf/index.rst
+   gpu-glossary/contributors.md

@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'gpu-glossary'
+project = 'GPU Glossary'
 copyright = '2025, miter'
 author = 'miter'
 
