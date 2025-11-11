@@ -8,7 +8,7 @@
 ---
 
 CUDA 代表 _Compute Unified Device Architecture_（计算统一设备架构）。根据上下文，"CUDA" 可以指代多个不同的事物：
-一种[高级设备架构](/gpu-glossary/device-hardware/cuda-device-architecture)，或是针对该架构设计的一种[并行编程模型](/gpu-glossary/device-software/cuda-programming-model)，或是扩展高级语言（如 C 语言）以添加该编程模型的[软件平台](/gpu-glossary/host-software/cuda-software-platform)。
+一种[总体设备架构](/gpu-glossary/device-hardware/cuda-device-architecture)，或是针对该架构设计的一种[并行编程模型](/gpu-glossary/device-software/cuda-programming-model)，或是扩展高级语言（如 C 语言）以添加该编程模型的[软件平台](/gpu-glossary/host-software/cuda-software-platform)。
 
 CUDA 的愿景在 [Lindholm 等人于 2008 年](https://www.cs.cmu.edu/afs/cs/academic/class/15869-f11/www/readings/lindholm08_tesla.pdf)发布的白皮书中进行了阐述。我们强烈推荐这篇论文，它是 NVIDIA 文档中许多论断、图表乃至特定措辞的原始来源。
 
@@ -16,9 +16,7 @@ CUDA 的愿景在 [Lindholm 等人于 2008 年](https://www.cs.cmu.edu/afs/cs/ac
 
 计算统一设备架构 (CUDA) 编程模型是一种用于大规模并行处理器的编程模型。
 
-根据
-[英伟达 CUDA C++ 编程指南](https://docs.nvidia.com/cuda/cuda-c-programming-guide/#a-scalable-programming-model)，
-CUDA 编程模型中有三个关键抽象：
+根据[英伟达 CUDA C++ 编程指南](https://docs.nvidia.com/cuda/cuda-c-programming-guide/#a-scalable-programming-model)， CUDA 编程模型中有三个关键抽象：
 
 - [**线程组层次结构**](/gpu-glossary/device-software/thread-hierarchy)。
   程序在线程中执行，但可以引用嵌套层次结构中的线程组，从

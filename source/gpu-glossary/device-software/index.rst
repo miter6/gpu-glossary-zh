@@ -11,21 +11,20 @@
    :maxdepth: 2
    :caption: 目录
 
-
-   compute-capability.md
-   cooperative-thread-array.md
-   cuda-programming-model.md
-   global-memory.md
    index.rst
-   kernel.md
-   memory-hierarchy.md
-   parallel-thread-execution.md
-   registers.md
-   shared-memory.md
-   streaming-assembler.md
-   thread-block-grid.md
-   thread-block.md
-   thread-hierarchy.md
-   thread.md
-   warp.md
 
+   CUDA 编程模型<cuda-programming-model.md>
+   流式汇编器 (SASS) <streaming-assembler.md>
+   并行线程执行 (PTX) <parallel-thread-execution.md>
+   计算能力<compute-capability.md>
+   线程<thread.md>
+   线程束<warp.md>
+   协作线程数组<cooperative-thread-array.md>
+   内核<kernel.md>
+   线程块<thread-block.md>
+   线程块网络<thread-block-grid.md>
+   线程层次结构<thread-hierarchy.md>
+   内存层次结构<memory-hierarchy.md>
+   寄存器<registers.md>
+   共享内存<shared-memory.md>
+   全局内存<global-memory.md>

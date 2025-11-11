@@ -18,27 +18,27 @@ GPU 编程过于困难且受限，运行成本又高，因此情况只能如此�
    :maxdepth: 2
    :caption: Contents:
 
-   active-cycle.md
-   arithmetic-bandwidth.md
-   arithmetic-intensity.md
-   bank-conflict.md
-   branch-efficiency.md
-   compute-bound.md
    index.rst
-   issue-efficiency.md
-   latency-hiding.md
-   littles-law.md
-   memory-bandwidth.md
-   memory-bound.md
-   memory-coalescing.md
-   occupancy.md
-   overhead.md
-   peak-rate.md
-   performance-bottleneck.md
-   pipe-utilization.md
-   register-pressure.md
-   roofline-model.md
-   streaming-multiprocessor-utilization.md
-   warp-divergence.md
-   warp-execution-state.md
 
+   性能瓶颈<performance-bottleneck.md>
+   屋顶线模型<roofline-model.md>
+   计算受限<compute-bound.md>
+   内存受限<memory-bound.md>
+   算术强度<arithmetic-intensity.md>
+   开销 (Overhead) <overhead.md>
+   利特尔定律<littles-law.md>
+   内存带宽<memory-bandwidth.md>
+   算术带宽<arithmetic-bandwidth.md>
+   延迟隐藏<latency-hiding.md>
+   Warp执行状态<warp-execution-state.md>
+   活跃周期<active-cycle.md>
+   占用率 (Occupancy)<occupancy.md>
+   流水线利用率<pipe-utilization.md>
+   峰值速率<peak-rate.md>
+   发射效率<issue-efficiency.md>
+   SM利用率<streaming-multiprocessor-utilization.md>
+   Warp分歧<warp-divergence.md>
+   分支效率<branch-efficiency.md>
+   内存合并<memory-coalescing.md>
+   Bank冲突<bank-conflict.md>
+   寄存器压力<register-pressure.md>
