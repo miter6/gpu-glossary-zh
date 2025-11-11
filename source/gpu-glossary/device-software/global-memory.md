@@ -17,6 +17,6 @@
 
 与 CPU 内存一样，可以使用原子指令在所有访问者之间同步对全局内存中数据结构的访问。在[协作线程数组](/gpu-glossary/device-software/cooperative-thread-array) 内部，可以通过屏障等方式进行更紧密的同步。
 
-[内存层次结构](/gpu-glossary/device-software/memory-hierarchy) 的这一层级通常实现在 [GPU 显存](/gpu-glossary/device-hardware/gpu-ram) 中，并使用 [CUDA 驱动 API](/gpu-glossary/host-software/cuda-driver-api) 或 [CUDA 运行时 API](/gpu-glossary/host-software/cuda-runtime-api) 提供的内存分配器从主机端进行分配。
+[内存层次结构](/gpu-glossary/device-software/memory-hierarchy) 的这一层级通常实现在 [GPU 显存](/gpu-glossary/device-hardware/gpu-ram) 中，并使用 [CUDA Driver API](/gpu-glossary/host-software/cuda-driver-api) 或 [CUDA Runtime API](/gpu-glossary/host-software/cuda-runtime-api) 提供的内存分配器从主机端进行分配。
 
 不幸的是，"全局"这个术语与 [CUDA C/C++](/gpu-glossary/host-software/cuda-c) 中的 `__global__` 关键字产生了冲突，该关键字用于标注在主机端启动但在设备端运行的函数（[内核](/gpu-glossary/device-software/kernel)），而全局内存仅位于设备端。早期的 CUDA 架构师 Nicholas Wilt 在他的 [_CUDA Handbook_](https://www.cudahandbook.com/) 中讽刺地指出，这一选择是"为了给开发者制造最大的困惑"。
