@@ -1,11 +1,13 @@
 # 说明
-[gpu-glossary](https://modal.com/gpu-glossary) 的中文翻译版，使用Sphinx排版，经本人润色(WIP)。  
+[gpu-glossary](https://modal.com/gpu-glossary) 的中文翻译版，使用Sphinx排版并托管在readthedocs网站。  
+
+中文原稿来自于 @BBuf 的[机翻项目](https://github.com/BBuf/gpu-glossary-zh) ，所有文本经本人润色和格式调教。  
 
 # readthedocs地址
 https://gpu-glossary-zh.readthedocs.io/en/latest/
 
 # 特别鸣谢
-@BBuf 
+@BBuf  
 中文原稿来自于 https://github.com/BBuf/gpu-glossary-zh  
 
 # Licenses
