@@ -5,9 +5,7 @@
 
 设备硬件
 ==========================
-
-这些术语和技术是 GPU 的物理组件——在 NVIDIA 术语中称为"设备"。
-
+这些术语和技术是 GPU 的物理组件——用 NVIDIA 的术语来说就是“设备”。
 
 .. toctree::
    :maxdepth: 2
@@ -29,4 +27,3 @@
    L1数据缓存<l1-data-cache.md>
    Tensor内存<tensor-memory.md>
    GPU内存 (RAM) <gpu-ram.md>
-
