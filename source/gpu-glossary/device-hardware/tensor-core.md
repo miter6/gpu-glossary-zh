@@ -4,7 +4,7 @@ Tensor Core 是一种 GPU [核心 (core)](/gpu-glossary/device-hardware/core)，
 
 ![](light-gh100-sm.svg)  
 
-> H100 SM 的内部架构。注意 Tensor Core 数量较少但尺寸更大。改编自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)。
+> H100 流式多处理器（SM）的内部架构图。注意 Tensor Core 数量较少但尺寸更大。改编自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)。
 
 单条指令能操作更多数据可显著降低功耗需求，从而释放更高性能（参见 NVIDIA 首席科学家 Bill Dally 的 [这个演讲](https://youtu.be/kLiwvnr4L80?t=868)自 Volta 架构引入[流式多处理器 (Streaming Multiprocessor, SM)](/gpu-glossary/device-hardware/streaming-multiprocessor-architecture) 以来，Tensor Core 已成为在 NVIDIA GPU 上实现最高[算术吞吐量 (arithmetic throughput)](/gpu-glossary/perf/arithmetic-bandwidth) 的唯一途径 —— 其每秒浮点运算能力是 [CUDA 核心 (CUDA Core)](/gpu-glossary/device-hardware/cuda-core) 的 100 倍。
 

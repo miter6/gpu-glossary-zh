@@ -4,7 +4,7 @@
 
 ![](light-gh100-sm.svg)
 
-> H100 GPU 流式多处理器的内部架构示意图。图中绿色部分为 GPU 核心，褐红色部分为其他计算单元，橙色部分为调度单元，蓝色部分为内存。修改自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)。
+> H100 流式多处理器（SM）的内部架构图。图中绿色部分为 GPU 核心，褐红色部分为其他计算单元，橙色部分为调度单元，蓝色部分为内存。修改自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)。
 
 NVIDIA GPU 的流式多处理器（SMs）大致类似于 CPU 的核心。也就是说，SMs 既执行计算，又在寄存器中存储可供计算使用的状态，并配有相关缓存。与 CPU 核心相比，GPU SMs 是简单、功能较弱的处理器。SMs 中指令的执行采用流水线方式（类似于 20 世纪 90 年代以来的几乎所有 CPU），但没有推测执行或指令指针预测（这与所有当代高性能 CPU 不同）。
 

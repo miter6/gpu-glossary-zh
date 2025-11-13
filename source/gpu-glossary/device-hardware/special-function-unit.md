@@ -4,7 +4,7 @@
 
 ![](light-gh100-sm.svg)
 
-> H100 GPU 流式多处理器的内部架构示意图。特殊功能单元以褐红色显示，与[加载/存储单元 (Load/Store Units)](/gpu-glossary/device-hardware/load-store-unit)一起展示。修改自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)。
+> H100 流式多处理器（SM）的内部架构图。特殊功能单元以褐红色显示，与[加载/存储单元 (Load/Store Units)](/gpu-glossary/device-hardware/load-store-unit)一起展示。修改自 NVIDIA 的 [H100 白皮书](https://modal-cdn.com/gpu-glossary/gtc22-whitepaper-hopper.pdf)。
 
 对于神经网络工作负载而言，最值得注意的是超越数学运算，例如 `exp`、`sin` 和 `cos`。
 
