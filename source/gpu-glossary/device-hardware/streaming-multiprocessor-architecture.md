@@ -11,13 +11,11 @@
 
 ![](light-tesla-sm.svg)  
 
-> 采用原始"Tesla" SM 架构的流式多处理器。修改自 [Fabien Sanglard 的博客](https://fabiensanglard.net/cuda)。
+> 具有原始"Tesla" SM 架构的流式多处理器。修改自 [Fabien Sanglard 的博客](https://fabiensanglard.net/cuda)。
 
-大多数 [SM](/gpu-glossary/device-hardware/streaming-multiprocessor) 版本包含两个组成部分：主版本和次版本。
+大多数 [SM](/gpu-glossary/device-hardware/streaming-multiprocessor) 版本包含两个组成部分：主版本号和次版本号。
 
-主版本_几乎_等同于 GPU 架构系列。例如，所有 `6.x` 版本的 SM 都属于 Pascal 架构。一些 NVIDIA 文档甚至
-[直接声称这一点](https://docs.nvidia.com/cuda/ptx-writers-guide-to-interoperability/index.html)。
+主版本 _几乎_ 等同于 GPU 架构系列。例如，所有 `6.x` 版本的 SM 都属于 Pascal 架构。 一些 NVIDIA 文档甚至 [直接声称这一点](https://docs.nvidia.com/cuda/ptx-writers-guide-to-interoperability/index.html)。
 但举例来说，Ada GPU 的[SM](/gpu-glossary/device-hardware/streaming-multiprocessor) 架构版本为 `8.9`，与 Ampere GPU 的主版本相同。
 
-在调用 [NVIDIA CUDA 编译器驱动程序 (nvcc)](/gpu-glossary/host-software/nvcc) 时，可以指定 [SASS](/gpu-glossary/device-software/streaming-assembler) 编译的目标[SM](/gpu-glossary/device-hardware/streaming-multiprocessor) 版本。
-明确不保证跨主版本的兼容性。有关跨次版本兼容性的更多信息，请参阅[nvcc](/gpu-glossary/host-software/nvcc) 的[文档](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/index.html#gpu-feature-list)。
+在调用 [NVIDIA CUDA 编译器驱动程序 (nvcc)](/gpu-glossary/host-software/nvcc) 时，可以指定 [SASS](/gpu-glossary/device-software/streaming-assembler) 编译的目标 [SM](/gpu-glossary/device-hardware/streaming-multiprocessor) 版本。主版本号之间的兼容性无法保证性。有关跨次版本兼容性的更多信息，请参阅[nvcc](/gpu-glossary/host-software/nvcc) 的[文档](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/index.html#gpu-feature-list)。
