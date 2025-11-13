@@ -11,8 +11,6 @@
    :maxdepth: 2
    :titlesonly:
 
-   index.rst
-
    CUDA (软件平台) <cuda-software-platform.md>
    CUDA C++ (编程语言) <cuda-c.md>
    NVIDIA GPU Driver<nvidia-gpu-drivers.md>

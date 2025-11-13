@@ -21,7 +21,7 @@ CUDA 的愿景在 [Lindholm 等人于 2008 年](https://www.cs.cmu.edu/afs/cs/ac
   访问存储器层次结构中的[最底层](/gpu-glossary/device-software/shared-memory) 应该 [几乎与执行指令一样快](/gpu-glossary/device-hardware/l1-data-cache)。
 - **屏障同步。** 线程组可以通过屏障来协调执行。
 
-线程组和存储器的层次结构及其到 [设备硬件](/gpu-glossary/device-hardware) 的映射总结在下图中。
+线程组和存储器的层次结构及其到 [设备硬件](/gpu-glossary/device-hardware/index.rst) 的映射总结在下图中。
 
 ![](../static/light-cuda-programming-model.svg)
 

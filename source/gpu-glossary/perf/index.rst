@@ -12,13 +12,11 @@
 GPU 编程过于困难且受限，运行成本又高，因此情况只能如此。
 在 NVIDIA，这一事实被概括为一句精辟的口号："性能即产品"。
 本部分 GPU 术语表收集并定义了优化 GPU 上运行程序性能所需理解关键术语。
-大致来说，它应涵盖您在使用 [NSight Compute](https://developer.nvidia.com/nsight-compute) 调试 GPU [内核](/gpu-glossary/device-software/kernel) 性能问题时遇到的所有术语。%                                                                                                      
+大致来说，它应涵盖您在使用 [NSight Compute](https://developer.nvidia.com/nsight-compute) 调试 GPU [内核](/gpu-glossary/device-software/kernel) 性能问题时遇到的所有术语。                                                                                                      
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
-   index.rst
 
    性能瓶颈<performance-bottleneck.md>
    屋顶线模型<roofline-model.md>

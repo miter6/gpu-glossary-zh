@@ -5,13 +5,12 @@
 
 设备软件
 ==========================
-这些术语和技术用于在 GPU（NVIDIA 术语中的"设备"）上运行的软件。
+
+这些术语和技术用于在 GPU (NVIDIA 术语中的"设备"）上运行的软件。
 
 .. toctree::
    :maxdepth: 2
    :caption: 目录
-
-   index.rst
 
    CUDA 编程模型<cuda-programming-model.md>
    流式汇编器 (SASS) <streaming-assembler.md>

@@ -1,6 +1,4 @@
----
- 贡献者
----
+# 贡献者
 
 此列表尚不完整，您可以通过[扩展它](https://github.com/modal-labs/gpu-glossary)来提供帮助。
 
@@ -8,7 +6,7 @@
 
 - [Charles Frye](https://twitter.com/charles_irl) 撰写了大部分材料，并对任何错误承担全部责任。
 - [Matthew Nappo](https://www.linkedin.com/in/mattnappo/) 撰写了最初的内部"GPU 术语表"文档，本术语表由此发展而来。
-- [Tensara](https://tensara.org/) 的 [Harmya Bhatt](https://twitter.com/racerfunction) 共同撰写了关于[性能](/gpu-glossary/perf)的材料。
+- [Tensara](https://tensara.org/) 的 [Harmya Bhatt](https://twitter.com/racerfunction) 共同撰写了关于[性能](/gpu-glossary/perf/index.rst)的材料。
 - [Philip Fabianek](https://www.linkedin.com/in/philip-fabianek/) 贡献了关于 [cuBLAS](/gpu-glossary/host-software/cublas) 和 [cuDNN](/gpu-glossary/host-software/cudnn) 的文章。
 - [Md Rashad Al Hasan Rony](https://www.rashad.ai/#about-me) 共同撰写了关于[内存合并](/gpu-glossary/perf/memory-coalescing)的文章。
 - [您](https://github.com/modal-labs/gpu-glossary) 可以为保持术语表最新且无错误做出贡献！
@@ -21,7 +19,7 @@
 ### 审阅
 
 - 来自 Modal 外部的 [Coding Confessions](https://blog.codingconfessions.com/) 的 [Abhinav Upadhyay](https://twitter.com/abhi9u) 和 [GPU MODE Discord](https://discord.gg/gpumode) 的 [`@Pauleonix`](https://github.com/pauleonix) 对术语表的第一个版本提供了宝贵的外部技术审阅。我们特别感谢 Abhinav 关于与 CPU 比较的视角，以及 Pauleonix 关于 GPU 硬件内部原理的详细见解。
-- [Alex Zhang](https://alexzhang13.github.io/)、[David Wang](https://www.linkedin.com/in/dcw02/)、[Mark Saroufim](https://twitter.com/marksaroufim) 和 [Mit Kotak](https://mitkotak.github.io/) 审阅了关于[性能](/gpu-glossary/perf)的材料。
+- [Alex Zhang](https://alexzhang13.github.io/)、[David Wang](https://www.linkedin.com/in/dcw02/)、[Mark Saroufim](https://twitter.com/marksaroufim) 和 [Mit Kotak](https://mitkotak.github.io/) 审阅了关于[性能](/gpu-glossary/perf/index.rst)的材料。
 - [Akshat Bubna](https://twitter.com/akshat_b)、[Nathan Wang](https://www.linkedin.com/in/nathan-r-wang/) 和 [Colin Weld](https://www.linkedin.com/in/colin-weld/) 对术语表的早期草稿提供了技术反馈。
 - [Eric Zhang](https://twitter.com/ekzhang1) 和 [Ro Arepally](https://twitter.com/rarepally) 审阅了设计和实现。
 

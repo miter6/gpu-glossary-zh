@@ -1,9 +1,17 @@
 # 说明
 [gpu-glossary](https://modal.com/gpu-glossary) 的中文翻译版，使用Sphinx排版并托管在readthedocs网站。  
 
-中文原稿来自于 @BBuf 的[机翻项目](https://github.com/BBuf/gpu-glossary-zh) ，所有文本经本人润色和格式调教。  
+中文基础原稿来自于 @BBuf 的 [机翻项目](https://github.com/BBuf/gpu-glossary-zh) ，本人重新对原稿进行二次人工润色，并使用DS模型辅助翻译和格式调教。  
+
+目前，完成的工作如下：  
+1. readthedocs 主题排版 ☑️  
+2. 设备硬件章节 ☑️  
+3. 设备软件章节  
+4. 主机软件章节  
+5. 性能章节  
 
 # readthedocs地址
+在线阅读地址：  
 https://gpu-glossary-zh.readthedocs.io/en/latest/
 
 # 特别鸣谢
