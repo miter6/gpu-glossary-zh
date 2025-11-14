@@ -1,6 +1,6 @@
 # 什么是寄存器？
 
-![](https://github.com/user-attachments/assets/44ef12b8-276d-4a27-9fa4-2cc7c85b1591)  
+![](light-cuda-programming-model.svg)  
 
 > 寄存器是[内存层次结构](/gpu-glossary/device-software/memory-hierarchy)中与单个[线程](/gpu-glossary/device-software/thread)相关联的内存（左图）。改编自 NVIDIA 的 [CUDA Refresher: The CUDA Programming Model](https://developer.nvidia.com/blog/cuda-refresher-cuda-programming-model/) 和 NVIDIA [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#programming-model) 中的图表。
 

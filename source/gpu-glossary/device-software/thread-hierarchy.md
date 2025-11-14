@@ -1,6 +1,6 @@
 # CUDA 线程层次结构是什么？
 
-![](https://github.com/user-attachments/assets/44ef12b8-276d-4a27-9fa4-2cc7c85b1591)  
+![](light-cuda-programming-model.svg)  
 
 > [CUDA 编程模型](/gpu-glossary/device-software/cuda-programming-model) 的线程层次结构从单个[线程](/gpu-glossary/device-software/thread)到[线程块](/gpu-glossary/device-software/thread-block)再到[线程块网格](/gpu-glossary/device-software/thread-block-grid)（左侧），映射到硬件上则从 CUDA [核心](/gpu-glossary/device-hardware/core)到[流式多处理器](/gpu-glossary/device-hardware/streaming-multiprocessor) 再到整个 GPU（右侧）。改编自 NVIDIA 的 [CUDA Refresher: The CUDA Programming Model](https://developer.nvidia.com/blog/cuda-refresher-cuda-programming-model/) 和 NVIDIA [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#programming-model) 中的图表。
 

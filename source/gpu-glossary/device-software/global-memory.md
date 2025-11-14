@@ -1,6 +1,6 @@
 # 什么是全局内存？
 
-![](https://github.com/user-attachments/assets/44ef12b8-276d-4a27-9fa4-2cc7c85b1591)  
+![](light-cuda-programming-model.svg)  
 
 > 全局内存是 [CUDA 编程模型](/gpu-glossary/device-software/cuda-programming-model) 中[内存层次结构](/gpu-glossary/device-software/memory-hierarchy)的最高层级。它存储在 [GPU 显存](/gpu-glossary/device-hardware/gpu-ram)中。修改自 NVIDIA 的 [CUDA Refresher: The CUDA Programming Model](https://developer.nvidia.com/blog/cuda-refresher-cuda-programming-model/) 和 NVIDIA [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#programming-model) 中的图表。
 

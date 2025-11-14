@@ -1,6 +1,6 @@
 # 什么是 CUDA 线程块？
 
-![](https://github.com/user-attachments/assets/44ef12b8-276d-4a27-9fa4-2cc7c85b1591)  
+![](light-cuda-programming-model.svg)  
 
 > 线程块是 [CUDA 编程模型](/gpu-glossary/device-software/cuda-programming-model) 线程层次结构中的中间层级（左图）。一个线程块在单个 [流式多处理器 (Streaming Multiprocessor)](/gpu-glossary/device-hardware/streaming-multiprocessor) 上执行（右图，中间）。改编自 NVIDIA 的 [CUDA 复习：CUDA 编程模型](https://developer.nvidia.com/blog/cuda-refresher-cuda-programming-model/) 和 NVIDIA [CUDA C++ 编程指南](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#programming-model) 中的图表。
 

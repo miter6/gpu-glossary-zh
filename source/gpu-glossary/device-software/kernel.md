@@ -1,6 +1,6 @@
 # 什么是 CUDA 内核？
 
-![](https://github.com/user-attachments/assets/44ef12b8-276d-4a27-9fa4-2cc7c85b1591)  
+![](light-cuda-programming-model.svg)  
 
 > 单个内核启动对应于 [CUDA 编程模型](/gpu-glossary/device-software/cuda-programming-model) 中的 [线程块网格](/gpu-glossary/device-software/thread-block-grid)。改编自 NVIDIA 的 [CUDA Refresher: The CUDA Programming Model](https://developer.nvidia.com/blog/cuda-refresher-cuda-programming-model/) 和 NVIDIA [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#programming-model) 中的图表。
 

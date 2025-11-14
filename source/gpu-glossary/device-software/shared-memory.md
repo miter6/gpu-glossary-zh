@@ -1,6 +1,6 @@
 # 什么是共享内存？
 
-![](https://github.com/user-attachments/assets/44ef12b8-276d-4a27-9fa4-2cc7c85b1591)  
+![](light-cuda-programming-model.svg)  
 
 > 共享内存是与 CUDA 线程组层次结构（左图）中的[线程块](/gpu-glossary/device-software/thread-block)级别（左图、中图）相关联的抽象内存。改编自 NVIDIA 的 [CUDA 复习：CUDA 编程模型](https://developer.nvidia.com/blog/cuda-refresher-cuda-programming-model/) 和 NVIDIA [CUDA C++ 编程指南](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#programming-model) 中的图表。
 
