@@ -1,16 +1,18 @@
 # 什么是内存带宽？
 
-内存带宽是指数据在[内存层次结构](/gpu-glossary/device-software/memory-hierarchy)的不同层级之间传输的最大速率。
+当代GPU的内存带宽以TB/秒为单位衡量。例如，B200 GPU与其HBM3e内存之间的（双向）内存带宽为8 TB/秒。这远低于这些GPU中张量核心的算术带宽，从而导致脊点算术强度增加。
 
-它代表了以字节/秒为单位移动数据时理论上可达到的最大吞吐量。它决定了硬件[屋顶线模型](/gpu-glossary/perf/roofline-model)中"内存屋顶"的斜率。
+内存带宽是指在 [内存层次结构](/gpu-glossary/device-software/memory-hierarchy) 的不同层级之间数据传输的最大速率。
 
-在一个完整的系统中有许多内存带宽——[内存层次结构](/gpu-glossary/device-software/memory-hierarchy)的每一层级之间都有一个带宽。
+它代表了以字节/秒为单位搬运数据时理论上可达到的最大吞吐量。它决定了硬件 [屋顶线模型](/gpu-glossary/perf/roofline-model) 中"内存屋顶"的斜率。
 
-最重要的带宽是[GPU显存](/gpu-glossary/device-hardware/gpu-ram)与[流式多处理器 (SM)](/gpu-glossary/device-hardware/streaming-multiprocessor)的[寄存器文件](/gpu-glossary/device-hardware/register-file)之间的带宽，因为大多数[内核](/gpu-glossary/device-software/kernel)的[工作集](https://en.wikipedia.org/wiki/Working_set_size)只能存放在[GPU显存](/gpu-glossary/device-software/memory-hierarchy)中，而无法放在[内存层次结构](/gpu-glossary/device-software/memory-hierarchy)中更高的层级。正是由于这个原因，在GPU[内核](/gpu-glossary/device-software/kernel)性能的[屋顶线建模](/gpu-glossary/perf/roofline-model)中，该带宽是主要使用的带宽。
+在一个完整的系统中有许多内存带宽—— [内存层次结构](/gpu-glossary/device-software/memory-hierarchy) 的每一层级之间都有一个带宽。
 
-当代GPU的内存带宽以TB/秒为单位进行测量。例如，[B200 GPU](https://modal.com/blog/introducing-b200-h200)与其HBM3e内存之间的（双向）内存带宽为8 TB/秒。这远低于这些GPU中[张量核心](/gpu-glossary/device-hardware/tensor-core)的[算术带宽](/gpu-glossary/perf/arithmetic-bandwidth)，从而导致[屋顶线模型](/gpu-glossary/perf/roofline-model)中的[脊点](/gpu-glossary/perf/roofline-model)所需的[算术强度](/gpu-glossary/perf/arithmetic-intensity)增加。
+最重要的带宽是 [GPU显存](/gpu-glossary/device-hardware/gpu-ram) 与 [流式多处理器 (SM)](/gpu-glossary/device-hardware/streaming-multiprocessor) 的 [寄存器文件](/gpu-glossary/device-hardware/register-file) 之间的带宽，因为大多数 [内核](/gpu-glossary/device-software/kernel) 的 [工作集](https://en.wikipedia.org/wiki/Working_set_size) 只能存放在 [GPU显存](/gpu-glossary/device-software/memory-hierarchy) 中，而无法放在 [内存层次结构](/gpu-glossary/device-software/memory-hierarchy) 中更高的层级。正是由于这个原因，在GPU [内核](/gpu-glossary/device-software/kernel) 性能的 [屋顶线建模](/gpu-glossary/perf/roofline-model) 中，主要使用的带宽。
 
-下表列出了从Ampere到Blackwell[流式多处理器架构](/gpu-glossary/device-hardware/streaming-multiprocessor-architecture)的NVIDIA数据中心GPU的代表性带宽数值。
+当代 GPU 的内存带宽以 TB/秒 为单位进行测量。例如，[B200 GPU](https://modal.com/blog/introducing-b200-h200) 与其 HBM3e 内存之间的（双向）内存带宽为 8 TB/秒。这远低于这些 GPU 中 [张量核心](/gpu-glossary/device-hardware/tensor-core) 的 [算术带宽](/gpu-glossary/perf/arithmetic-bandwidth)，从而导致 [屋顶线模型](/gpu-glossary/perf/roofline-model) 中的 [脊点](/gpu-glossary/perf/roofline-model) 所需的 [算术强度](/gpu-glossary/perf/arithmetic-intensity) 增加。
+
+下表列出了从 Ampere 到 Blackwell [流式多处理器架构](/gpu-glossary/device-hardware/streaming-multiprocessor-architecture) NVIDIA 数据中心 GPU 的代表性带宽数值。
 
 | **系统（计算/内存）**                                                                                                                               | **[算术带宽](/gpu-glossary/perf/arithmetic-bandwidth) (TFLOPs/s)** | **内存带宽 (TB/s)** | **[脊点](/gpu-glossary/perf/roofline-model) (FLOPs/byte)** |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------: | --------------------------: | ----------------------------------------------------------------: |
