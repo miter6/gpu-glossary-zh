@@ -14,11 +14,11 @@
 
 由于不同算法本质上具有不同的操作复杂度和内存复杂度，所以它们在算术强度上的扩展方式也固有地不同。一个具有 O(1) 操作复杂度和 O(N) 内存复杂度的算法具有 O(1/N) 的算术强度扩展，而一个具有 O(N) 操作复杂度和 O(1) 内存复杂度的算法具有 O(N) 的算术强度扩展。
 
-| **内核 (Kernel)**           |    **FLOPs** | **移动字节数 (Bytes Moved)** | **算术强度 (Arithmetic Intensity)** | **算术强度扩展 (Arithmetic Intensity Scaling)** |
+| **内核 (Kernel)**           |    **FLOPs** | **移动字节数<br> (Bytes Moved)** | **算术强度<br> (Arithmetic Intensity)** | **算术强度扩展<br> (Arithmetic Intensity Scaling)** |
 | :-------------------------- | -----------: | ---------------------------: | ----------------------------------: | ----------------------------------------------: |
-| SAXPY y = ax + y            |           2N |                          8N |                                 1/4 |                                            O(1) |
+| SAXPY y = ax + y            |           2N |                          12N |                                 1/6 |                                            O(1) |
 | 单精度实数 FFT (Single-Precision Real FFT) | 5/2 N log(N) |                         16N |                       5/32 log(N) |                                      O(log(N)) |
-| SGEMM                       |         2N^3 |                        6N^2 |                               N/8 |                                            O(N) |
+| SGEMM C = A @ B + C         |         2N^3 |                       16N^2 |                               N/8 |                                            O(N) |
 
 值得注意的是，矩阵乘法的算术强度呈线性缩放，即 O(N) —— 其操作复杂度为 O(N³)，内存复杂度为 O(N²)。这种有利的缩放特性使得矩阵乘法相关应用能够轻松适配以算术强度为导向的硬件（参见 [关于屋顶线建模的文章](/gpu-glossary/perf/roofline-model) 中的讨论）。这是过去几十年，基于矩阵乘法的机器学习算法（如神经网络）成功的关键秘诀之一。
 
@@ -26,7 +26,7 @@
 
 要使工作达到 [计算受限 (compute-bound)](/gpu-glossary/perf/compute-bound)（即超过 [屋顶线模型 (roofline model)](/gpu-glossary/perf/roofline-model) 的脊点）所需的最小算术强度是系统的一个固定参数，因此只需推导一次。以下表格列出了近期NVIDIA数据中心GPU的脊点算术强度。请注意，从 Ampere 到 Hopper 再到 Blackwell [流式多处理器架构 (Streaming Multiprocessor architectures)](/gpu-glossary/device-hardware/streaming-multiprocessor-architecture)，最高脊点已经增加。
 
-| **系统 (计算 / 内存) (System (Compute / Memory))**                                                                                                                               | **[算术带宽 (Arithmetic Bandwidth)](/gpu-glossary/perf/arithmetic-bandwidth) (TFLOPs/s)** | **[内存带宽 (Memory Bandwidth)](/gpu-glossary/perf/memory-bandwidth) (TB/s)** | **[脊点 (Ridge Point)](/gpu-glossary/perf/roofline-model) (FLOPs/byte)** |
+| **系统 (计算/内存)<br> (System (Compute/Memory))**                                                                                                                               | **[算术带宽 (Arithmetic Bandwidth)](/gpu-glossary/perf/arithmetic-bandwidth) <br>(TFLOPs/s)** | **[内存带宽 (Memory Bandwidth)](/gpu-glossary/perf/memory-bandwidth) <br>(TB/s)** | **[脊点 (Ridge Point)](/gpu-glossary/perf/roofline-model) <br>(FLOPs/byte)** |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------: | -----------------------------------------------------------------------------: | --------------------------------------------------------------------------: |
 | [A100 80GB SXM BF16 TC / HBM2e](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf) |                                                                                        312 |                                                                              2 |                                                                         156 |
 | [H100 SXM BF16 TC / HBM3](https://resources.nvidia.com/en-us-gpu-resources/h100-datasheet-24306)                |                                                                                        989 |                                                                           3.35 |                                                                         295 |
