@@ -39,7 +39,7 @@ GPU 术语表的这一部分汇集并定义了优化 GPU 程序性能所需理�
    峰值速率<peak-rate.md>
    发射效率<issue-efficiency.md>
    SM利用率<streaming-multiprocessor-utilization.md>
-   Warp分歧<warp-divergence.md>
+   Warp分化<warp-divergence.md>
    分支效率<branch-efficiency.md>
    内存合并<memory-coalescing.md>
    Bank冲突<bank-conflict.md>

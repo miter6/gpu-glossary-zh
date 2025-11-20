@@ -15,7 +15,7 @@
  ╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝
 ```
 
-我们编写这个术语表是为了解决在 [Modal](https://modal.com/) 使用 GPU 时遇到的一个问题：相关文档较为分散分散，难以将不同技术栈层次的概念联系起来，比如[流式多处理器架构 (Streaming Multiprocessor Architecture)](/gpu-glossary/device-hardware/streaming-multiprocessor-architecture)、[计算能力 (Compute Capability)](/gpu-glossary/device-software/compute-capability) 和 [nvcc 编译器标志](/gpu-glossary/host-software/index.rst)。
+我们编写这个术语表是为了解决在 [Modal](https://modal.com/) 使用 GPU 时遇到的一个问题：相关文档较为分散，难以将不同技术栈层次的概念联系起来，比如[流式多处理器架构 (Streaming Multiprocessor Architecture)](/gpu-glossary/device-hardware/streaming-multiprocessor-architecture)、[计算能力 (Compute Capability)](/gpu-glossary/device-software/compute-capability) 和 [nvcc 编译器标志](/gpu-glossary/host-software/index.rst)。
 
 为此，我们研读了 [NVIDIA 的技术文档](https://docs.nvidia.com/cuda/pdf/PTX_Writers_Guide_To_Interoperability.pdf) ，在 [优质的 Discord 社区](https://discord.gg/gpumode) 中潜水学习，甚至购买了 [纸质教科书](https://www.amazon.com/Professional-CUDA-Programming-John-Cheng/dp/1118739329) ，只为汇编这份涵盖整个技术栈的综合性术语表。
 
