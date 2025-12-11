@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/host-software/cublas.md
-翻译时间: 2025-11-06 18:26:13
--->
-
----
- 什么是 cuBLAS？
----
+# 什么是 cuBLAS？
 
 cuBLAS (CUDA Basic Linear Algebra Subroutines，CUDA 基础线性代数子程序) 是 NVIDIA 对
 [基础线性代数子程序 (BLAS)](https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms)

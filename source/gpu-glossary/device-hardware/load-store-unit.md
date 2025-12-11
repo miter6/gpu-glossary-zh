@@ -1,8 +1,3 @@
-<!--
-原文: 文件路径: gpu-glossary/device-hardware/load-store-unit.md
-翻译时间: 2025-11-06 19:08:47
--->
-
 # 什么是加载/存储单元？（LSU）
 
 加载/存储单元 (Load/Store Unit, LSU) 负责向 GPU 的内存子系统分派加载或存储数据的请求。

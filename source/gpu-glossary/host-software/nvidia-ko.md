@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/host-software/nvidia-ko.md
-翻译时间: 2025-11-06 18:29:23
--->
-
----
- 什么是 nvidia.ko？
----
+# 什么是 nvidia.ko？
 
 `nvidia.ko`是[NVIDIA GPU 驱动程序](/gpu-glossary/host-software/nvidia-gpu-drivers)在 Linux 系统中的核心二进制[内核模块](https://wiki.archlinux.org/title/Kernel_module)文件。
 

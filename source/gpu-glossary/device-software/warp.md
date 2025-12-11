@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/device-software/warp.md
-翻译时间: 2025-11-06 18:31:23
--->
-
----
-什么是线程束？
----
+# 什么是线程束？
 
 线程束 (Warp) 是一组被一起调度以并行方式执行的[线程](/gpu-glossary/device-software/thread)。一个线程束中的所有[线程](/gpu-glossary/device-software/thread)都被调度到单个[流式多处理器 (SM)](/gpu-glossary/device-hardware/streaming-multiprocessor) 上。单个 [SM](/gpu-glossary/device-hardware/streaming-multiprocessor) 通常执行多个线程束，至少包括来自同一个[协作线程阵列](/gpu-glossary/device-software/cooperative-thread-array)（也称为[线程块](/gpu-glossary/device-software/thread-block)）的所有线程束。
 

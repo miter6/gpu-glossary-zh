@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/host-software/cudnn.md
-翻译时间: 2025-11-06 18:26:57
--->
-
----
- 什么是 cuDNN？
----
+# 什么是 cuDNN？
 
 NVIDIA 的 cuDNN（CUDA 深度神经网络）是一个用于构建 GPU 加速的深度神经网络的基元库。
 

@@ -1,8 +1,3 @@
-<!--
-原文: 文件路径: gpu-glossary/device-hardware/streaming-multiprocessor.md
-翻译时间: 2025-11-06 19:03:40
--->
-
 # 什么是流式多处理器？（SM）
 
 当我们[对 GPU 进行编程](/gpu-glossary/host-software/cuda-software-platform)时，我们会生成[指令序列](/gpu-glossary/device-software/streaming-assembler)供其流式多处理器 (Streaming Multiprocessor) 执行。

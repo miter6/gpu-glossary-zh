@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/device-software/parallel-thread-execution.md
-翻译时间: 2025-11-06 18:35:59
--->
-
----
- 什么是并行线程执行？（PTX）
----
+# 什么是并行线程执行？（PTX）
 
 并行线程执行 (Parallel Thread eXecution, PTX) 是一种用于在并行处理器（几乎总是 NVIDIA GPU）上运行的代码的中间表示 (intermediate representation, IR)。它是 `nvcc`（[NVIDIA CUDA 编译器驱动程序](/gpu-glossary/host-software/nvcc)）输出的格式之一。许多 NVIDIA 工程师将其发音为 "pee-tecks"，而其他人则发音为 "pee-tee-ecks"。
 

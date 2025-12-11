@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/roofline-model.md
-翻译时间: 2025-11-06 18:50:59
--->
-
----
- 什么是屋顶线模型？
----
+# 什么是屋顶线模型？
 
 屋顶线模型是一种简化的、可视化的性能模型，用于快速判断程序是受[内存带宽](/gpu-glossary/perf/memory-bandwidth)限制还是[算术带宽](/gpu-glossary/perf/arithmetic-bandwidth)限制。
 

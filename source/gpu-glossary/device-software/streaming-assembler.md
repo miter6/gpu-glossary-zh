@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/device-software/streaming-assembler.md
-翻译时间: 2025-11-06 18:33:51
--->
-
----
- 什么是流式汇编器？ abbreviation: SASS
----
+# 什么是流式汇编器？ (SASS)
 
 [流式汇编器](https://stackoverflow.com/questions/9798258/what-is-sass-short-for) (SASS) 是运行在 NVIDIA GPU 上程序的汇编格式。
 这是可编写人类可读代码的最低层级格式。它是 `nvcc`（[NVIDIA CUDA 编译器驱动程序](/gpu-glossary/host-software/nvcc)）输出的格式之一，与 [PTX](/gpu-glossary/device-software/parallel-thread-execution) 并列。它在执行期间被转换为特定设备的二进制微码。"流式汇编器"中的"流式"大概指的是该汇编语言程序所面向的[流式多处理器](/gpu-glossary/device-hardware/streaming-multiprocessor) (SM)。

@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/device-software/kernel.md
-翻译时间: 2025-11-06 18:37:39
--->
-
----
- 什么是 CUDA 内核？
----
+# 什么是 CUDA 内核？
 
 ![](https://github.com/user-attachments/assets/44ef12b8-276d-4a27-9fa4-2cc7c85b1591)  
 

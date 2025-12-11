@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/host-software/nvcc.md
-翻译时间: 2025-11-06 18:28:45
--->
-
----
- 什么是 NVIDIA CUDA 编译器驱动程序？(nvcc)
----
+# 什么是 NVIDIA CUDA 编译器驱动程序？(nvcc)
 
 NVIDIA CUDA 编译器驱动程序是一个用于编译
 [CUDA C/C++](/gpu-glossary/host-software/cuda-c) 程序的工具链。它输出符合主机 ABI 的二进制可执行文件，其中包含要在 GPU 上执行的

@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/device-software/compute-capability.md
-翻译时间: 2025-11-06 18:39:12
--->
-
----
-什么是计算能力？
----
+# 什么是计算能力？
 
 [并行线程执行 (Parallel Thread Execution)](/gpu-glossary/device-software/parallel-thread-execution) 指令集中的指令仅与特定的物理 GPU 兼容。用于从指令集和[编译器 (compiler)](/gpu-glossary/host-software/nvcc) 中抽象出物理 GPU 细节的版本控制系统被称为"计算能力 (Compute Capability)"。
 

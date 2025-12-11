@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/littles-law.md
-翻译时间: 2025-11-06 18:57:59
--->
-
----
- 什么是利特尔法则？
----
+# 什么是利特尔法则？
 
 利特尔法则确立了通过吞吐量完全[隐藏延迟 (hide latency)](/gpu-glossary/perf/latency-hiding)所需的并发量。
 

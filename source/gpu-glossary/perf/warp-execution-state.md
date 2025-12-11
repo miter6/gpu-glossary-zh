@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/warp-execution-state.md
-翻译时间: 2025-11-06 18:45:34
--->
-
----
- 什么是线程束执行状态？
----
+# 什么是线程束执行状态？
 
 运行[内核](/gpu-glossary/device-software/kernel)的[线程束](/gpu-glossary/device-software/warp)状态可通过多个非互斥的形容词来描述：活跃的、停滞的、符合条件的和被选中的。
 

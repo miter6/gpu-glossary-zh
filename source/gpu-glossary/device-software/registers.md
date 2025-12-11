@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/device-software/registers.md
-翻译时间: 2025-11-06 18:40:09
--->
-
----
-什么是寄存器？
----
+# 什么是寄存器？
 
 ![](https://github.com/user-attachments/assets/44ef12b8-276d-4a27-9fa4-2cc7c85b1591)  
 

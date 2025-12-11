@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/branch-efficiency.md
-翻译时间: 2025-11-06 18:42:38
--->
-
----
- 什么是分支效率？
----
+# 什么是分支效率？
 
 分支效率衡量的是当遇到条件语句时，[线程束 (warp)](/gpu-glossary/device-software/warp) 中的所有[线程 (thread)](/gpu-glossary/device-software/thread) 采用相同执行路径的频率。
 

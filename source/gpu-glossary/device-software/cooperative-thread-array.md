@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/device-software/cooperative-thread-array.md
-翻译时间: 2025-11-06 18:41:29
--->
-
----
- 什么是协作线程阵列？
----
+# 什么是协作线程阵列？
 
 ![](https://github.com/user-attachments/assets/44ef12b8-276d-4a27-9fa4-2cc7c85b1591)  
 

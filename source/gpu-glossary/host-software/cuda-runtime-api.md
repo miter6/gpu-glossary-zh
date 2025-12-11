@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/host-software/cuda-runtime-api.md
-翻译时间: 2025-11-06 18:24:53
--->
-
----
- 什么是 CUDA Runtime API？
----
+# 什么是 CUDA Runtime API？
 
 CUDA Runtime API (CUDA Runtime API) 封装了[CUDA Driver API](/gpu-glossary/host-software/cuda-driver-api)，并为相同功能提供了更高级别的API。
 

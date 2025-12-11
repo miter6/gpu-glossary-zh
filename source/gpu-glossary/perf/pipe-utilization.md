@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/pipe-utilization.md
-翻译时间: 2025-11-06 18:48:33
--->
-
----
- 什么是流水线利用率？
----
+# 什么是流水线利用率？
 
 流水线利用率衡量的是[内核 (kernel)](/gpu-glossary/device-software/kernel)在每个[流式多处理器 (Streaming Multiprocessor, SM)](/gpu-glossary/device-hardware/streaming-multiprocessor)内使用执行资源的效率。
 

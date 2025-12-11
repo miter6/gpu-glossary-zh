@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/memory-bound.md
-翻译时间: 2025-11-06 18:53:48
--->
-
----
- 什么是内存受限？
----
+# 什么是内存受限？
 
 内存受限的[内核](/gpu-glossary/device-software/kernel)受限于 GPU 的[内存带宽](/gpu-glossary/perf/memory-bandwidth)。
 

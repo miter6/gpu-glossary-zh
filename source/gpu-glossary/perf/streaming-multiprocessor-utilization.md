@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/streaming-multiprocessor-utilization.md
-翻译时间: 2025-11-06 18:48:04
--->
-
----
- 什么是 SM 利用率？
----
+# 什么是 SM 利用率？
 
 SM 利用率衡量的是[流式多处理器 (SM)](/gpu-glossary/device-hardware/streaming-multiprocessor)执行指令的时间百分比。
 

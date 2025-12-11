@@ -1,15 +1,8 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/bank-conflict.md
-翻译时间: 2025-11-06 18:43:47
--->
-
----
- 什么是存储体冲突？
----
+# 什么是存储体冲突？
 
 当一个[线程束](/gpu-glossary/device-software/warp)中的多个[线程](/gpu-glossary/device-software/thread)同时请求访问[共享内存](/gpu-glossary/device-software/shared-memory)中同一存储体（bank）但不同地址的内存时，我们称之为发生了存储体冲突。
 
-![当[线程](/gpu-glossary/device-software/thread)访问不同的[共享内存](/gpu-glossary/device-software/shared-memory)存储体时，访问是并行处理的（左图）。当它们都访问同一存储体但不同地址时，访问会被串行化（右图）。](light-bank-conflict.svg)
+![当[线程](/gpu-glossary/device-software/thread)访问不同的[共享内存](/gpu-glossary/device-software/shared-memory)存储体时，访问是并行处理的（左图）。当它们都访问同一存储体但不同地址时，访问会被串行化（右图）。](../images/bank-conflict.svg)
 
 当发生存储体冲突时，不同[线程](/gpu-glossary/device-software/thread)的访问会被串行化。这会大幅降低内存吞吐量，即按整数倍减少，从而无法饱和[内存带宽](/gpu-glossary/perf/memory-bandwidth)。
 

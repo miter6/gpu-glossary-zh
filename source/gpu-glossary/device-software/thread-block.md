@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/device-software/thread-block.md
-翻译时间: 2025-11-06 18:38:40
--->
-
----
- 什么是 CUDA 线程块？
----
+# 什么是 CUDA 线程块？
 
 ![](https://github.com/user-attachments/assets/44ef12b8-276d-4a27-9fa4-2cc7c85b1591)  
 

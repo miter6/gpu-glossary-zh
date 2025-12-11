@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/host-software/cuda-binary-utilities.md
-翻译时间: 2025-11-06 18:29:43
--->
-
----
- CUDA 二进制工具是什么？
----
+# CUDA 二进制工具是什么？
 
 CUDA 二进制工具是一套用于检查二进制文件内容的工具集合，这些二进制文件包括由 [NVIDIA CUDA 编译器驱动程序 (nvcc)](/gpu-glossary/host-software/nvcc) 输出的文件。
 

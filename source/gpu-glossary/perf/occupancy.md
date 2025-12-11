@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/occupancy.md
-翻译时间: 2025-11-06 18:57:27
--->
-
----
- 什么是占用率？
----
+# 什么是占用率？
 
 占用率是设备上[活动线程束](/gpu-glossary/perf/warp-execution-state)数量与最大[活动线程束](/gpu-glossary/perf/warp-execution-state)数量的比值。
 

@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/warp-divergence.md
-翻译时间: 2025-11-06 18:54:57
--->
-
----
- 什么是线程束发散？
----
+# 什么是线程束发散？
 
 线程束发散 (warp divergence) 发生在[线程束 (warp)](/gpu-glossary/device-software/warp) 内的线程由于控制流语句而采取不同执行路径时。
 

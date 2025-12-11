@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/register-pressure.md
-翻译时间: 2025-11-06 18:58:37
--->
-
----
- 什么是寄存器压力？
----
+# 什么是寄存器压力？
 
 寄存器压力是一个形象的说法，用于描述当[寄存器文件](/gpu-glossary/device-hardware/register-file)成为[性能瓶颈](/gpu-glossary/perf/performance-bottleneck)时的情况。
 

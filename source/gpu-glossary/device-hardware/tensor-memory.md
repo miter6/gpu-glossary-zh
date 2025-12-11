@@ -1,8 +1,3 @@
-<!--
-原文: 文件路径: gpu-glossary/device-hardware/tensor-memory.md
-翻译时间: 2025-11-06 19:02:13
--->
-
 # 什么是 Tensor Memory？
 
 Tensor Memory（张量内存）是某些 GPU（如 [B200](https://modal.com/blog/introducing-b200-h200)）的[流式多处理器 (SM)](/gpu-glossary/device-hardware/streaming-multiprocessor) 中的一种专用内存，用于存储 [Tensor Core](/gpu-glossary/device-hardware/tensor-core) 的输入和输出。

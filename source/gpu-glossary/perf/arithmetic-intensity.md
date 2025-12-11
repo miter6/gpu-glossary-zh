@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/arithmetic-intensity.md
-翻译时间: 2025-11-06 18:56:15
--->
-
----
- 什么是算术强度？
----
+# 什么是算术强度？
 
 算术强度是 [内核 (kernel)](/gpu-glossary/device-software/kernel) 中算术操作与内存操作的比率。
 

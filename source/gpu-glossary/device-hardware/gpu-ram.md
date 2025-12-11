@@ -1,8 +1,3 @@
-<!--
-原文: 文件路径: gpu-glossary/device-hardware/gpu-ram.md
-翻译时间: 2025-11-06 19:00:13
--->
-
 # 什么是 GPU RAM？
 
 ![](light-hbm-schematic.svg)  

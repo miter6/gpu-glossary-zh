@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/issue-efficiency.md
-翻译时间: 2025-11-06 18:42:55
--->
-
----
- 什么是发射效率？
----
+# 什么是发射效率？
 
 发射效率 (Issue efficiency) 衡量的是[线程束调度器](/gpu-glossary/device-hardware/warp-scheduler)通过从[合格线程束](/gpu-glossary/perf/warp-execution-state)发射指令来保持执行流水线繁忙的有效程度。
 

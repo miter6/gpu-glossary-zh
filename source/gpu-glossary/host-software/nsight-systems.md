@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/host-software/nsight-systems.md
-翻译时间: 2025-11-06 18:29:59
--->
-
----
- 什么是 NVIDIA Nsight Systems？
----
+# 什么是 NVIDIA Nsight Systems？
 
 NVIDIA Nsight Systems 是一款用于 [CUDA C++](/gpu-glossary/host-software/cuda-c) 程序的性能调试工具。它将性能分析、追踪和专家系统分析功能集成在图形用户界面 (GUI) 中。
 

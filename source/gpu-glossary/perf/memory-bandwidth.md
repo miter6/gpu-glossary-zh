@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/memory-bandwidth.md
-翻译时间: 2025-11-06 18:52:00
--->
-
----
- 什么是内存带宽？
----
+# 什么是内存带宽？
 
 内存带宽是指数据在[内存层次结构](/gpu-glossary/device-software/memory-hierarchy)的不同层级之间传输的最大速率。
 

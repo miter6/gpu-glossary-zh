@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/host-software/nvidia-smi.md
-翻译时间: 2025-11-06 18:27:56
--->
-
----
- 什么是 nvidia-smi？
----
+# 什么是 nvidia-smi？
 
 这个命令行实用程序用于查询和管理由 [NVML](/gpu-glossary/host-software/nvml) 管理库暴露的 GPU 状态。其输出（如下所示样本）对于 NVIDIA GPU 用户来说非常熟悉，甚至已经成为一种[网络迷因](https://x.com/boborado/status/1752724223934578760)。
 

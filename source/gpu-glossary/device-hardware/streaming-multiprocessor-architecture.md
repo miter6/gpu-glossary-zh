@@ -1,8 +1,3 @@
-<!--
-原文: 文件路径: gpu-glossary/device-hardware/streaming-multiprocessor-architecture.md
-翻译时间: 2025-11-06 19:00:40
--->
-
 # 什么是流式多处理器架构？
 
 [流式多处理器 (SM)](/gpu-glossary/device-hardware/streaming-multiprocessor)

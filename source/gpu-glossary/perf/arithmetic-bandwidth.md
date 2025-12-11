@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/arithmetic-bandwidth.md
-翻译时间: 2025-11-06 18:49:34
--->
-
----
- 什么是算术带宽？
----
+# 什么是算术带宽？
 
 算术带宽是指系统执行算术工作的[峰值速率](/gpu-glossary/perf/peak-rate)。
 

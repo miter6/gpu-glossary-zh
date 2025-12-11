@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/device-software/cuda-programming-model.md
-翻译时间: 2025-11-06 18:32:27
--->
-
----
- 什么是 CUDA 编程模型？
----
+# 什么是 CUDA 编程模型？
 
 CUDA 全称是 _Compute Unified Device Architecture_（计算统一设备架构）。  
 根据上下文，"CUDA" 可以指代多个不同的事物：

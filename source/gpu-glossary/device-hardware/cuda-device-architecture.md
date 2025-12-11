@@ -1,8 +1,3 @@
-<!--
-原文: 文件路径: gpu-glossary/device-hardware/cuda-device-architecture.md
-翻译时间: 2025-11-06 18:59:25
--->
-
 # 什么是 CUDA 设备架构？
 
 CUDA 全称是 _Compute Unified Device Architecture_（计算统一设备架构）。  

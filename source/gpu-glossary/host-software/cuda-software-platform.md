@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/host-software/cuda-software-platform.md
-翻译时间: 2025-11-06 18:29:14
--->
-
----
- CUDA 软件平台是什么？
----
+# CUDA 软件平台是什么？
 
 CUDA 全称是 _Compute Unified Device Architecture_（计算统一设备架构）。  
 根据上下文，"CUDA"可以指代多个不同的事物：一种[总体设备架构](/gpu-glossary/device-hardware/cuda-device-architecture)，或是针对该[架构设计的一种并行编程模型](/gpu-glossary/device-software/cuda-programming-model)，或是扩展高级语言（如 C 语言）以添加该编程模型的[软件平台](/gpu-glossary/host-software/cuda-software-platform)。

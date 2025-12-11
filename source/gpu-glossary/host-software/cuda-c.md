@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/host-software/cuda-c.md
-翻译时间: 2025-11-06 18:24:33
--->
-
----
- 什么是 CUDA C++ 编程语言？
----
+# 什么是 CUDA C++ 编程语言？
 
 CUDA C++ 是 [CUDA 编程模型](/gpu-glossary/device-software/cuda-programming-model) 的一种实现，作为 C++ 编程语言的扩展。
 

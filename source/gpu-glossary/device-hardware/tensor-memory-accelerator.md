@@ -1,8 +1,3 @@
-<!--
-原文: 文件路径: gpu-glossary/device-hardware/tensor-memory-accelerator.md
-翻译时间: 2025-11-06 19:06:53
--->
-
 # 什么是张量内存加速器？（TMA）
 
 张量内存加速器 (Tensor Memory Accelerator, TMA) 是 Hopper 和 Blackwell [架构](/gpu-glossary/device-hardware/streaming-multiprocessor-architecture) GPU 中的专用硬件，旨在加速对 [GPU 内存](/gpu-glossary/device-hardware/gpu-ram) 中多维数组的访问。

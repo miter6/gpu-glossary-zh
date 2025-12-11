@@ -1,8 +1,3 @@
-<!--
-原文: 文件路径: gpu-glossary/device-hardware/l1-data-cache.md
-翻译时间: 2025-11-06 19:08:26
--->
-
 # 什么是 L1 数据缓存？
 
 L1 数据缓存是[流式多处理器 (SM)](/gpu-glossary/device-hardware/streaming-multiprocessor)的私有内存。

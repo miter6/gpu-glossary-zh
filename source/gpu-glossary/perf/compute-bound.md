@@ -1,11 +1,4 @@
-<!--
-原文: 文件路径: gpu-glossary/perf/compute-bound.md
-翻译时间: 2025-11-06 18:42:12
--->
-
----
- 计算受限的含义是什么？
----
+# 计算受限的含义是什么？
 
 计算受限的[内核 (Kernel)](/gpu-glossary/device-software/kernel)受限于[CUDA 核心 (CUDA Core)](/gpu-glossary/device-hardware/cuda-core)或[张量核心 (Tensor Core)](/gpu-glossary/device-hardware/tensor-core)的[算术带宽 (arithmetic bandwidth)](/gpu-glossary/perf/arithmetic-bandwidth)。
 

@@ -1,8 +1,3 @@
-<!--
-原文: 文件路径: gpu-glossary/device-hardware/warp-scheduler.md
-翻译时间: 2025-11-06 19:08:01
--->
-
 # 什么是线程束调度器？
 
 线程束调度器是[流式多处理器 (SM)](/gpu-glossary/device-hardware/streaming-multiprocessor)的核心组件，负责在每个时钟周期决定执行哪一组[线程](/gpu-glossary/device-software/thread)。
