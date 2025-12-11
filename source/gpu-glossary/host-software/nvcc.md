@@ -4,8 +4,7 @@
 -->
 
 ---
- 什么是 NVIDIA CUDA 编译器驱动程序？
-abbreviation: nvcc
+ 什么是 NVIDIA CUDA 编译器驱动程序？(nvcc)
 ---
 
 NVIDIA CUDA 编译器驱动程序是一个用于编译

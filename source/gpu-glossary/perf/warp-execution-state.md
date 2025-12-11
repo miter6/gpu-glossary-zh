@@ -9,7 +9,7 @@
 
 运行[内核](/gpu-glossary/device-software/kernel)的[线程束](/gpu-glossary/device-software/warp)状态可通过多个非互斥的形容词来描述：活跃的、停滞的、符合条件的和被选中的。
 
-![](https://files.mdnice.com/user/59/34f2af6b-b744-4fe2-9880-8883c5f83b38.png)
+![](light-cycles.svg)
 
 > 线程束执行状态通过颜色表示。图表灵感来源于 GTC 2025 的 [*CUDA Techniques to Maximize Compute and Instruction Throughput*](https://www.nvidia.com/en-us/on-demand/session/gtc25-s72685/) 演讲。
 

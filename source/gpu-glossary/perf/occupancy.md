@@ -9,7 +9,7 @@
 
 占用率是设备上[活动线程束](/gpu-glossary/perf/warp-execution-state)数量与最大[活动线程束](/gpu-glossary/perf/warp-execution-state)数量的比值。
 
-![](https://files.mdnice.com/user/59/d14cb798-3bfe-4ae4-aa27-5b846874d68c.png)
+![](light-cycles.svg)
 
 > 四个时钟周期中每个周期有四个线程束槽位，因此共有16=4*4个线程束槽位，其中15个槽位中有活动线程束，占用率约为94%。图表灵感来自GTC 2025的[*CUDA Techniques to Maximize Compute and Instruction Throughput*](https://www.nvidia.com/en-us/on-demand/session/gtc25-s72685/)演讲。
 

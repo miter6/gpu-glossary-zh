@@ -10,7 +10,7 @@
 [CUDA Driver API](https://docs.nvidia.com/cuda/cuda-driver-api/index.html) 是 NVIDIA CUDA 驱动的用户空间组件。  
 它为熟悉 C 标准库的用户提供了实用工具：例如，用于在 GPU 设备上分配[内存](/gpu-glossary/device-software/global-memory)的函数 `cuMalloc` 。
 
-![](light-cuda-toolkit.svg)  
+![](light-cuda-toolkit.svg)
 
 > CUDA 工具包。CUDA Driver API 位于应用程序或其他工具包组件与 GPU 之间。改编自《Professional CUDA C Programming Guide》。
 

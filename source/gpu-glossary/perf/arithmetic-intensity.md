@@ -9,7 +9,7 @@
 
 算术强度是 [内核 (kernel)](/gpu-glossary/device-software/kernel) 中算术操作与内存操作的比率。
 
-![](https://files.mdnice.com/user/59/131ece1e-bc21-4782-8bf2-5d5d4bd21507.png)
+![](light-roofline-model.svg)
 
 > 在 [屋顶线模型 (roofline model)](/gpu-glossary/perf/roofline-model) 中，操作/算术强度绘制在横轴上。图表改编自 [Williams, Waterman, and Patterson (2008)](https://people.eecs.berkeley.edu/~kubitron/cs252/handouts/papers/RooflineVyNoYellow.pdf)。
 

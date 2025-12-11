@@ -9,7 +9,7 @@
 
 计算受限的[内核 (Kernel)](/gpu-glossary/device-software/kernel)受限于[CUDA 核心 (CUDA Core)](/gpu-glossary/device-hardware/cuda-core)或[张量核心 (Tensor Core)](/gpu-glossary/device-hardware/tensor-core)的[算术带宽 (arithmetic bandwidth)](/gpu-glossary/perf/arithmetic-bandwidth)。
 
-![](https://files.mdnice.com/user/59/4d0fb191-e5cb-44f1-83c3-eadcf6e74f14.png)
+![](light-roofline-model.svg)
 
 > 在上方的[屋顶线图 (roofline diagram)](/gpu-glossary/perf/roofline-model)中，位于蓝线以下的[内核 (kernel)](/gpu-glossary/device-software/kernel)属于计算受限。图表改编自[Williams, Waterman, and Patterson (2008)](https://people.eecs.berkeley.edu/~kubitron/cs252/handouts/papers/RooflineVyNoYellow.pdf)。
 

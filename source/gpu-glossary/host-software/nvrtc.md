@@ -4,8 +4,7 @@
 -->
 
 ---
- 什么是 NVIDIA 运行时编译器？
-abbreviation: nvrtc
+ 什么是 NVIDIA 运行时编译器？(nvrtc)
 ---
 
 NVIDIA 运行时编译器 (`nvrtc`) 是一个用于 CUDA C 的运行时编译库。它能够将 [CUDA C++](/gpu-glossary/host-software/cuda-c) 编译为 [PTX](/gpu-glossary/device-software/parallel-thread-execution)，而无需在另一个进程中单独启动 [NVIDIA CUDA 编译器驱动程序](/gpu-glossary/host-software/nvcc) (`nvcc`)。一些库或框架会使用它，例如，将生成的 C/C++ 代码映射到可以在 GPU 上运行的 [PTX](/gpu-glossary/device-software/parallel-thread-execution) 代码。

@@ -9,7 +9,7 @@
 
 内存受限的[内核](/gpu-glossary/device-software/kernel)受限于 GPU 的[内存带宽](/gpu-glossary/perf/memory-bandwidth)。
 
-![](https://files.mdnice.com/user/59/67dd5c08-fbca-495f-a666-c864929ff420.png)
+![](light-roofline-model.svg)
 
 > 屋顶线图（如上图所示）有助于识别程序性能的瓶颈是计算能力、内存带宽还是其他因素。图表改编自 [Williams, Waterman, and Patterson (2008)](https://people.eecs.berkeley.edu/~kubitron/cs252/handouts/papers/RooflineVyNoYellow.pdf)。
 

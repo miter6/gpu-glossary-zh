@@ -9,7 +9,7 @@
 
 发射效率 (Issue efficiency) 衡量的是[线程束调度器](/gpu-glossary/device-hardware/warp-scheduler)通过从[合格线程束](/gpu-glossary/perf/warp-execution-state)发射指令来保持执行流水线繁忙的有效程度。
 
-![](https://files.mdnice.com/user/59/17b78aa8-e57b-497f-be43-5f2c16853c17.png)
+![](light-cycles.svg)
 
 > 在此图的四个时钟周期中，有三个周期发射了指令，因此发射效率为75%。该图灵感来源于GTC 2025上的[*CUDA Techniques to Maximize Compute and Instruction Throughput*](https://www.nvidia.com/en-us/on-demand/session/gtc25-s72685/)演讲。
 

@@ -4,8 +4,7 @@
 -->
 
 ---
- 什么是 NVIDIA CUDA 性能分析工具接口？
-abbreviation: CUPTI
+ 什么是 NVIDIA CUDA 性能分析工具接口？(CUPTI)
 ---
 
 NVIDIA CUDA 性能分析工具接口 (CUPTI) 提供了一组 API，用于分析在 GPU 上执行的 [CUDA C++](/gpu-glossary/host-software/cuda-c)、[PTX](/gpu-glossary/device-software/parallel-thread-execution) 和 [SASS](/gpu-glossary/device-software/streaming-assembler) 代码。关键在于，它能在 CPU 主机和 GPU 设备之间同步时间戳。
