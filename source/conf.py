@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'GPU Glossary'
-copyright = '2025, miter'
-author = 'miter'
+copyright = '2025, miter6'
+author = 'miter6'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

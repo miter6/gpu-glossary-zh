@@ -19,4 +19,4 @@ IMUL R6, R4, 0x1337       // integer multiply, 6 cycles
 
 需要注意的是，指令发射的单位不是 [线程 (thread)](/gpu-glossary/device-software/thread)，而是 [线程束 (warp)](/gpu-glossary/device-software/warp)。 每个[线程束 (warp)](/gpu-glossary/device-software/warp) 包含 32 个 [线程 (thread)](/gpu-glossary/device-software/thread)，因此我们的代码片段需要 416 ÷ 32 = 13 个 [线程束 (warp)](/gpu-glossary/device-software/warp)。当成功隐藏延迟时，GPU 的调度系统会维持这么多 [线程束 (warp)](/gpu-glossary/device-software/warp) 在执行中，在某个线程束停滞时立即切换到其他线程束执行，确保执行单元在等待慢速操作完成期间不会闲置。
 
-要深入了解 [张量核心 (Tensor Core)](/gpu-glossary/device-hardware/tensor-core) 出现前的 GPU 延迟隐藏技术，请参阅 [Vasily Volkov 的博士论文](https://arxiv.org/abs/2206.02874)。
+要深入了解 [张量核心 (Tensor Core)](/gpu-glossary/device-hardware/tensor-core) 出现前的 GPU 延迟隐藏技术，请参阅 [Vasily Volkov 的博士论文](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-143.pdf)。

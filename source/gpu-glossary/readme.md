@@ -24,3 +24,5 @@
 你也可以按线性顺序阅读。要在页面间导航，可使用方向键、每页底部的箭头或目录（在桌面端显示于侧边栏，在移动端显示于汉堡菜单中）。
 
 本术语表的源代码可在 [GitHub](https://github.com/modal-labs/gpu-glossary) 上获取。
+
+中文翻译仓库 [gpu-glossary-zh](https://github.com/miter6/gpu-glossary-zh)。  

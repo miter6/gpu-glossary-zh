@@ -18,6 +18,7 @@
    计算能力<compute-capability.md>
    线程<thread.md>
    线程束<warp.md>
+   线程束组<warpgroup.md>
    协作线程数组<cooperative-thread-array.md>
    内核<kernel.md>
    线程块<thread-block.md>

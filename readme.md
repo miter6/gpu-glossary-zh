@@ -1,7 +1,8 @@
 # 说明
-[gpu-glossary](https://modal.com/gpu-glossary) 的中文翻译版，使用Sphinx排版并托管在readthedocs网站。  
+此仓库是 [gpu-glossary](https://github.com/modal-labs/gpu-glossary) 的中文翻译版。  
+使用Sphinx排版并托管在readthedocs网站，可进行在线阅读。
 
-中文基础原稿来自于 @BBuf 的 [机翻项目](https://github.com/BBuf/gpu-glossary-zh) ，本人重新对原稿进行二次人工润色，并使用DS模型辅助翻译和格式调教。  
+本仓库的中文基础原稿来自于 @BBuf 的 [机翻项目](https://github.com/BBuf/gpu-glossary-zh) ，本人重新对原稿进行二次人工润色，并使用DS模型辅助翻译和格式调教。  
 
 目前，完成的工作如下：  
 1. readthedocs 主题排版 ☑️  
@@ -13,8 +14,8 @@
 所有翻译都已完成，可能还存在一些勘误，请大家踊跃提交PR，谢谢！。  
 
 # readthedocs地址
-在线阅读地址：  
-https://gpu-glossary-zh.readthedocs.io/en/latest/
+中文版在线阅读地址：https://gpu-glossary-zh.readthedocs.io/en/latest/  
+英文版在线阅读地址：https://github.com/modal-labs/gpu-glossary  
 
 # 特别鸣谢
 @BBuf  
