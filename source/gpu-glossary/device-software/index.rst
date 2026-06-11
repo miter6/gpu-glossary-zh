@@ -13,6 +13,7 @@
    :caption: 目录
 
    CUDA 编程模型<cuda-programming-model.md>
+   CUDA Tile 编程模型<cuda-tile-programming-model.md>
    流式汇编器 (SASS) <streaming-assembler.md>
    并行线程执行 (PTX) <parallel-thread-execution.md>
    计算能力<compute-capability.md>

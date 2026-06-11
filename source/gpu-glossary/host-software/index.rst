@@ -21,6 +21,7 @@
    libnvml.so<libnvml.md>
    nvidia-smi<nvidia-smi.md>
    CUDA Runtime API<cuda-runtime-api.md>
+   CUDA Graph<cuda-graph.md>
    libcudart.so<libcudart.md>
    NVIDIA CUDA Compiler Driver<nvcc.md>
    NVIDIA Runtime Compiler<nvrtc.md>
@@ -29,3 +30,7 @@
    CUDA 二进制工具<cuda-binary-utilities.md>
    cuBLAS<cublas.md>
    cuDNN<cudnn.md>
+   CUTLASS<cutlass.md>
+   CuTe<cute.md>
+   CuTe DSL<cute-dsl.md>
+   cuTile BASIC<cutile-basic.md>

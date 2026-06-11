@@ -43,4 +43,5 @@ GPU 术语表的这一部分汇集并定义了优化 GPU 程序性能所需理�
    分支效率<branch-efficiency.md>
    内存合并<memory-coalescing.md>
    Bank冲突<bank-conflict.md>
+   Scoreboard Stall<scoreboard-stall.md>
    寄存器压力<register-pressure.md>
