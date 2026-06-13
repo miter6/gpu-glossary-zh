@@ -26,7 +26,7 @@ __global__ void divergent_kernel(float* data, int n) {
 
 让我们检查生成的 [SASS (Streaming Assembler)](/gpu-glossary/device-software/streaming-assembler) ([Godbolt 链接](https://godbolt.org/z/EGWKb5oWr)) 来理解执行流程：
 
-```nasm
+```
 LDG.E.SYS R4, [R2]                       // L1 load data[idx]
 FSETP.GT.AND P0, PT, R4.reuse, 0.5, PT   // L2 set P0 to data[idx] > 0.5
 FADD R0, R4, 2                           // L3 store 2 + data[idx] in R0

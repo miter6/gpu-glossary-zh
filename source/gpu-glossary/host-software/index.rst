@@ -1,8 +1,3 @@
-.. gpu-glossary documentation master file, created by
-   sphinx-quickstart on Mon Nov 10 20:07:22 2025.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 主机软件
 ==========================
 这些术语和技术在运行 GPU 程序时用于 CPU (在 NVIDIA 术语中称为"主机"）。
@@ -22,6 +17,7 @@
    nvidia-smi<nvidia-smi.md>
    CUDA Runtime API<cuda-runtime-api.md>
    libcudart.so<libcudart.md>
+   CUDA Graphs<cuda-graph.md>
    NVIDIA CUDA Compiler Driver<nvcc.md>
    NVIDIA Runtime Compiler<nvrtc.md>
    NVIDIA CUDA 调优工具接口 (CUPTI) <cupti.md>
@@ -29,3 +25,7 @@
    CUDA 二进制工具<cuda-binary-utilities.md>
    cuBLAS<cublas.md>
    cuDNN<cudnn.md>
+   CUTLASS<cutlass.md>
+   CuTe<cute.md>
+   Cute DSL<cute-dsl.md>
+   Cutile Basic<cutile-basic.md>

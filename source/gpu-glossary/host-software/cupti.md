@@ -6,4 +6,4 @@ CUPTI 的接口被诸如 [NSight Systems 性能分析器](/gpu-glossary/host-sof
 
 您可以在 [此处](https://docs.nvidia.com/cupti/) 找到其文档。
 
-有关在 Modal 上运行的 GPU 应用程序使用性能分析工具的详细信息，请参阅 [我们文档中的此示例](/docs/examples/torch_profiling)。
+有关在 Modal 上运行的 GPU 应用程序使用性能分析工具的详细信息，请参阅 [我们文档中的此示例](https://modal.com/docs/examples/torch_profiling)。

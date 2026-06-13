@@ -57,7 +57,7 @@ HMMA.1688.F32 R24, R14, R18, R24  // 4
 
 如需深入探索，可在 [Godbolt 上查看此编译器输出](https://godbolt.org/z/e6cqn8491)。注意，这远非使张量核心 [利用率最大化](https://modal.com/blog/gpu-utilization-guide) 的矩阵乘法！相关实现可参阅 [Pranjal Shandkar 的工作日志](https://cudaforfun.substack.com/p/outperforming-cublas-on-h100-a-worklog)。
 
-为实现Hopper和Blackwell张量核心的最大性能，无法仅使用纯 [CUDA C++](/gpu-glossary/host-software/cuda-c) 编程，而需要同时使用 [PTX](/gpu-glossary/device-software/parallel-thread-execution) 内部函数进行计算和内存操作。通常建议直接使用内核库中的现有内核，如 [cuBLAS (CUDA 基础线性代数子程序)](/gpu-glossary/host-software/cublas)，或更高级的内核编程接口如 [CUTLASS (CUDA 线性代数子程序模板)](https://github.com/NVIDIA/cutlass)。关于 CUTLASS 的入门，可参阅 [Colfax Research 的博客系列](https://research.colfax-intl.com/cutlass-tutorial-wgmma-hopper/)。
+为实现Hopper和Blackwell张量核心的最大性能，无法仅使用纯 [CUDA C++](/gpu-glossary/host-software/cuda-c) 编程，而需要同时使用 [PTX](/gpu-glossary/device-software/parallel-thread-execution) 内部函数进行计算和内存操作。通常建议直接使用内核库中的现有内核，如 [cuBLAS (CUDA 基础线性代数子程序)](/gpu-glossary/host-software/cublas)，或更高级的内核编程接口如 [CUTLASS (CUDA 线性代数子程序模板)](https://github.com/NVIDIA/cutlass) in C++ 或者 [CuTe DSL](/gpu-glossary/host-software/cute-dsl) in Python。
 
 张量核心的规模比 [CUDA 核心 (CUDA Core)](/gpu-glossary/device-hardware/cuda-core) 大得多，但数量少得多。H100 SXM5 每个 [SM](/gpu-glossary/device-hardware/streaming-multiprocessor) 仅有四个张量核心（即每个 [线程束调度器 (Warp Scheduler)](/gpu-glossary/device-hardware/warp-scheduler) 一个），但拥有数百个 [CUDA 核心 (CUDA Core)](/gpu-glossary/device-hardware/cuda-core)。张量核心是 [Tensor Memory](/gpu-glossary/device-hardware/tensor-memory) 的主要生产者和消费者。
 

@@ -8,8 +8,9 @@
 - [Matthew Nappo](https://www.linkedin.com/in/mattnappo/) 撰写了最初的内部"GPU 术语表"文档，本术语表由此发展而来。
 - [Tensara](https://tensara.org/) 的 [Harmya Bhatt](https://twitter.com/racerfunction) 共同撰写了关于 [性能](/gpu-glossary/perf/index.rst) 的材料。
 - [Philip Fabianek](https://www.linkedin.com/in/philip-fabianek/) 贡献了关于 [cuBLAS](/gpu-glossary/host-software/cublas) 和 [cuDNN](/gpu-glossary/host-software/cudnn) 的文章。
+- [Debashish Chakraborty](https://github.com/debashishc) 共同撰写了关于 [CuTe DSL](/gpu-glossary/host-software/cute-dsl) 的文章。
 - [Md Rashad Al Hasan Rony](https://www.rashad.ai/#about-me) 共同撰写了关于 [内存合并](/gpu-glossary/perf/memory-coalescing) 的文章。
-- [Christopher Fleetwood](https://fleetwood.dev/) 贡献了关于 [warpgroups](/gpu-glossary/device-software/warpgroup) 的文章.
+- [Christopher Fleetwood](https://fleetwood.dev/) 贡献了关于 [warpgroups](/gpu-glossary/device-software/warpgroup) 和 [记分板](/gpu-glossary/perf/scoreboard-stall) 的文章.
 - [您](https://github.com/modal-labs/gpu-glossary) 可以为保持术语表最新且无错误做出贡献！
 
 ## 设计
@@ -42,3 +43,4 @@
 - Ismail Zaidi
 - [Michal Nawrot](https://github.com/michalnawrot)
 - [Nicolas Blin](https://www.nicolas-blin.fr/)
+- [Tony Wang](https://github.com/tonywangs)

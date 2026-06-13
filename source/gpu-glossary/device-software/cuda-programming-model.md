@@ -1,5 +1,7 @@
 # 什么是 CUDA 编程模型？
 
+CUDA 编程模型是一种用于对大规模并行处理器进行编程的编程模型。
+
 CUDA 全称是 _Compute Unified Device Architecture_（统一计算设备架构）。  
 根据上下文的不同，"CUDA" 可以指代多个不同的概念：
 一种 [设备硬件架构](/gpu-glossary/device-hardware/cuda-device-architecture)，或是一种适用于该架构设计的 [并行编程模型](/gpu-glossary/device-software/cuda-programming-model)，或是一种扩展高级语言（如 C 语言）以支持该编程模型的 [软件平台](/gpu-glossary/host-software/cuda-software-platform)。
@@ -7,8 +9,6 @@ CUDA 全称是 _Compute Unified Device Architecture_（统一计算设备架构�
 CUDA 的愿景在 [Lindholm 等人于 2008 年](https://www.cs.cmu.edu/afs/cs/academic/class/15869-f11/www/readings/lindholm08_tesla.pdf) 发布的白皮书中有所阐述。我们强烈推荐阅读这份论文，它是 NVIDIA 文档中许多观点、图表乃至特定表述的原始出处。
 
 本文，重点介绍 CUDA _编程模型_。
-
-统一计算设备架构 (CUDA) 编程模型是一种用于大规模并行处理器的编程模型。
 
 根据 [英伟达 CUDA C++ 编程指南](https://docs.nvidia.com/cuda/cuda-c-programming-guide/#a-scalable-programming-model)， CUDA 编程模型包含三个关键抽象：
 

@@ -1,8 +1,3 @@
-.. gpu-glossary documentation master file, created by
-   sphinx-quickstart on Mon Nov 10 20:07:22 2025.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 设备软件
 ==========================
 
@@ -28,3 +23,4 @@
    寄存器<registers.md>
    共享内存<shared-memory.md>
    全局内存<global-memory.md>
+   CUDA Tile 编程模型<cuda-tile-programming-model.md>

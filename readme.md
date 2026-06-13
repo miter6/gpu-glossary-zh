@@ -12,6 +12,9 @@
 5. 性能章节 ☑️     
 
 所有翻译都已完成，可能还存在一些勘误，请大家踊跃提交PR，谢谢！。  
+如何觉的整理和翻译不错的话，那就请我喝一杯咖啡吧，谢谢！。  
+![1.jpg](./1.jpg)
+
 
 # readthedocs地址
 中文版在线阅读地址：https://gpu-glossary-zh.readthedocs.io/en/latest/  

@@ -25,7 +25,7 @@
 - 内存依赖，必须等待先前内存操作的结果，
 - 流水线冲突，执行资源当前被占用。
 
-当线程束因访问共享内存或因执行长时间运行的算术指令而停滞时，我们称其停滞在"短计分板（short scoreboard）"上。当因访问 GPU 内存而停滞时，则称为停滞在"长记分板（long scoreboard）"上。这些是 [线程束调度器](/gpu-glossary/device-hardware/warp-scheduler) 内部的硬件单元。[计分板](https://www.cs.umd.edu/~meesh/411/website/projects/dynamic/scoreboard.html) 是一种在动态指令调度中用于跟踪依赖关系的技术，其历史可以追溯到"第一台超级计算机"——[Control Data Corporation 6600](https://en.wikipedia.org/wiki/CDC_6600)，其中一台在 1966 年 [推翻了欧拉幂和猜想](https://www.ams.org/journals/bull/1966-72-06/S0002-9904-1966-11654-3/S0002-9904-1966-11654-3.pdf)。与 CPU 不同，计分板不用于 [线程](/gpu-glossary/device-software/thread) 内部的乱序执行（指令级并行），而只用于跨线程的执行（线程级并行）；参见 [此 NVIDIA 专利](https://patents.google.com/patent/US7676657)。
+当线程束因访问共享内存或因执行长时间运行的算术指令而停滞时，我们称其停滞在"短计分板（short scoreboard）"上。当因访问 GPU 内存而停滞时，则称为停滞在"长记分板（long scoreboard）"。 这两种停顿都被称为记分板停滞 ([Scoreboard Stalls](/gpu-glossary/perf/scoreboard-stall))。
 
 在上图中，每个周期的多个槽位中都出现了停滞的 [线程束](/gpu-glossary/device-software/warp)。停滞的 [线程束](/gpu-glossary/device-software/warp) 本身并不一定是坏事——大量并发停滞的 [线程束](/gpu-glossary/device-software/warp) 可能是 [隐藏延迟](/gpu-glossary/perf/latency-hiding) 所必需的，这些延迟来自长时间运行的指令，如内存加载或像 `HMMA` 这样的 [张量核心](/gpu-glossary/device-hardware/tensor-core) 指令，这些指令 [可能运行数十个周期](https://arxiv.org/abs/2206.02874)。
 
